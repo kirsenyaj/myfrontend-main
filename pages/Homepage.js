@@ -10,7 +10,7 @@ export default function Homepage ({navigation}) {
             <View style={styles.homeCard}>
                 <Text style={styles.header}>Homepage</Text>
 
-                <View>
+                <View style={styles.buttonSpacing}>
                     <Button 
                     color={styles.buttonColor.backgroundColor} 
                     title='Register'

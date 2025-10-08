@@ -9,7 +9,7 @@ export default function ReviewPage({route, navigation}) {
 
     const handleSubmit = async () => {
         try {
-            const response = await axios.post('http://127.0.0.1:8000/registration/api/register/', formData); 
+            const response = await axios.post('http://192.168.20.238:8000/registration/api/register/', formData); 
             
             if (typeof Alert !== 'undefined' && Alert.alert) {
                  Alert.alert("Success", "Registration Successful");
